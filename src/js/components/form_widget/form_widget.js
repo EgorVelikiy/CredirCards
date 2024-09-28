@@ -65,6 +65,11 @@ export class FormWidget {
       clearTimeout(this.this_timout);
     }
     const val = this.inputArea.value;
+    if (!val) {
+      this.cards.forEach((c) => {
+        c.classList.remove("disabled");
+      });
+    }
     this._timout = setTimeout(() => {
       const card = cardTypes(val);
       if (card) {
