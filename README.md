@@ -3,4 +3,5 @@
 [Руководство по настройке Webpack](https://webpack.js.org/guides/)
 [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
-![CI](https://github.com/egorvelikiy/CD/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/egorvelikiy/CredirCards/actions/workflows/web.yml/badge.svg)
+
